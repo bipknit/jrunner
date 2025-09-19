@@ -3,7 +3,7 @@ runR is a simple multi language code runner that makes things simple, supports u
 # Linux and Windows support! 
 (the powershell source is directly translated from bash so i dont guarantee that there will be no problems)!
 
-### Dependencies install cmd
+### Dependencies
 Arch linux / Manjaro
 
 ```bash
