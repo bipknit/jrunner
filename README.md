@@ -53,7 +53,7 @@ notepad $PROFILE
 ```
 Add this line:
 ```ps1
-Set-Alias j "C:\Scripts\r.ps1"
+Set-Alias r "C:\Scripts\r.ps1"
 ```
 Allow running scripts:
 ```ps1
@@ -77,7 +77,7 @@ example structure (generated with tree command)
 1 directory, 4 files
 ```
 What if i dont want to do the usual things?
-I just type "j" in the terminal or the corresponding alias you have set for the script.
+I just type "r" in the terminal or the corresponding alias you have set for the script.
 And it compiles your .java file in our case with javac and runs the .class file afterwards auto.
 
 
@@ -96,7 +96,7 @@ example structure (generated with tree command)
 ```
 Okay lets say I wanna run that .c file.
 You know the silly gcc has to run and then you gotta hassle with ./a.out thingy, you waste time.
-just use "j surprise.c".
+just use "r surprise.c".
 You might be asking what if its already compiled? Its gonna run the compiled code only, and re-compile only if the .c file is newer.
 Similar case happens for other compiled langs.
 How does it know which .out file is for what? For now it assumes a.out is the name for compiled code in case of cpp and c files. (I might be migrating to sourcefilename.c --> sourcefilename.out format later)
