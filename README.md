@@ -10,8 +10,9 @@ Arch linux / Manjaro
 sudo pacman -S --needed - < dependencies.txt
 ```
 
-# installer
+# install
 ## How to install?
+### linux:
 ### Use the installer script 
 Which auto downloads the latest source for you and asks if you want to append the alias "j" to your shell config.
 ### Manually
@@ -21,6 +22,38 @@ fish shell
 csh
 zsh
 bash
+
+### windows
+Place your powershell script somewhere like:
+```ps1
+C:\Scripts\r.ps1
+```
+Check if you have a profile file:
+```ps1
+$PROFILE
+```
+This usually points to something like:
+```ps1
+C:\Users\YourName\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+```
+If it doesnt then create it:
+```ps1
+New-Item -Path $PROFILE -ItemType File -Force
+```
+Open this in some editor (the good old notepad)
+```ps1
+notepad $PROFILE
+```
+Add this line:
+```ps1
+Set-Alias j "C:\Scripts\r.ps1"
+```
+Allow running scripts:
+```ps1
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+Restart powershell
+Good to go :D
 
 
 # Why does this make life much easier?
