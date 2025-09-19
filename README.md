@@ -4,11 +4,19 @@ runR is a simple multi language code runner that makes things simple, supports u
 > ⚠️ **(the powershell source is directly translated from bash so i dont guarantee that there will be no problems)!** 
 
 ### Dependencies
+Linux
 Arch linux / Manjaro
 
 ```bash
 sudo pacman -S --needed - < dependencies.txt
 ```
+
+via pip
+```bash
+pip install -r requirements.txt
+```
+
+
 Windows 
 > (REQUIRES [Chocolatey](https://chocolatey.org/ "Package manager for Windows")!)
 
