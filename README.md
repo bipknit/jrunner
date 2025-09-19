@@ -118,14 +118,25 @@ Also the average typing speed is 40 WPM (Words per minute) ~200 characters per m
 javac Main.java
 java Main
 ```
+| Method                     | Command             | Characters | Typing Time (sec) | Time Saved (sec) | Percentage Saved (%) | Time Saved per Hour (min) |
+|-----------------------------|-------------------|------------|-----------------|-----------------|--------------------|--------------------------|
+| Manual compile + run        | javac Main.java    | 17         | 5.1             | -               | -                  | -                        |
+|                             | java Main          | 9          | 2.7             | -               | -                  | -                        |
+| Using runR with file        | r Main.java        | 11         | 3.3             | 4.5             | 58                 | 1.125                    |
+| Using runR auto-select file | r                  | 1          | 0.3             | 7.5             | 96                 | 1.875                    |
+
+| Hours Worked | Time Saved with r Main.java (min) | Time Saved with r (auto-select) (min) |
+|--------------|---------------------------------|-------------------------------------|
+| 1            | 1.125                           | 1.875                               |
+| 2            | 2.25                            | 3.75                                |
+| 3            | 3.375                           | 5.625                               |
+| 4            | 4.5                             | 7.5                                 |
+| 5            | 5.625                           | 9.375                               |
+| 6            | 6.75                            | 11.25                               |
+| 7            | 7.875                           | 13.125                              |
+| 8            | 9                               | 15                                  |
 
 
-| Method                     | Command             | Characters | Time Formula                     | Typing Time (sec) |
-|-----------------------------|-------------------|------------|---------------------------------|-----------------|
-| Manual compile + run        | javac Main.java    | 17         | 17 / 200 * 60                   | 5.1             |
-|                             | java Main          | 9          | 9 / 200 * 60                    | 2.7             |
-| Using runR with file        | r Main.java        | 11         | 11 / 200 * 60                   | 3.3             |
-| Using runR auto-select file | r                  | 1          | 1 / 200 * 60                     | 0.3             |
 
 $$
 Time (sec) = \frac{Characters}{200} \times 60
