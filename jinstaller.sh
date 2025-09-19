@@ -3,8 +3,8 @@
 # conf
 RUNNER_URL="https://raw.githubusercontent.com/bipknit/jrunner/main/jrun.sh"
 INSTALL_DIR="$HOME/bin"
-RUNNER_FILE="$INSTALL_DIR/jrunner.sh"
-ALIAS_NAME="j"
+RUNNER_FILE="$INSTALL_DIR/runr.sh"
+ALIAS_NAME="r"
 SHELL_RC=""
 
 # detect shell config file
