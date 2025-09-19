@@ -1,0 +1,15 @@
+cpp
+bash
+c
+d
+java
+go
+python
+ruby
+php
+lua
+javascript
+typescript
+kotlin
+swift
+perl
