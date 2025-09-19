@@ -178,15 +178,3 @@ esac
 if [[ "$debug" -eq 1 ]]; then
     echo "$dbuginfo"
 fi
-
-fexists() {
-    echo "$ext"
-    case "$ext" in
-        class|out) return ;;  # allow these without runmap
-    esac
-
-    if [ -z "$ext" ] || [ -z "${runmap[$ext]+_}" ]; then
-        echo "Unknown or missing file extension: $ext"
-        exit 1
-    fi
-}
