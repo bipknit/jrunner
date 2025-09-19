@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # conf
-RUNNER_URL="https://raw.githubusercontent.com/bipknit/jrunner/main/jrun.sh"
+RUNNER_URL="https://raw.githubusercontent.com/bipknit/runR/main/runr.sh"
 INSTALL_DIR="$HOME/bin"
 RUNNER_FILE="$INSTALL_DIR/runr.sh"
 ALIAS_NAME="r"
