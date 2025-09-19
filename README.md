@@ -1,5 +1,6 @@
 # JRUNNER
 jrunner is a simple code runner that makes things simple, supports up to 15 languages!
+# Linux and Windows support, (the powershell source is directly translated from bash so i dont guarantee that there will be no problems)!
 
 ### Dependencies install cmd
 Arch linux / Manjaro
