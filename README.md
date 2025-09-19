@@ -15,7 +15,7 @@ zsh
 bash
 
 
-## Why does this make life much easier?
+# Why does this make life much easier?
 ### Case 1: you have only 1 type of supported file in a single project dir.
 
 example structure (generated with tree command)
