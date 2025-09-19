@@ -6,6 +6,7 @@ java
 go
 python
 ruby
+rust
 php
 lua
 javascript
