@@ -41,6 +41,7 @@ And it compiles your .java file in our case with javac and runs the .class file 
 
 
 example structure (generated with tree command)
+```bash
 .
 ├── Main.java
 ├── notmypasswords.csv
@@ -48,7 +49,7 @@ example structure (generated with tree command)
 └── surprise.c
 
 1 directory, 4 files
-
+```
 Okay lets say I wanna run that .c file.
 You know the silly gcc has to run and then you gotta hassle with ./a.out thingy, you waste time.
 just use "j surprise.c".
