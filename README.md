@@ -1,6 +1,10 @@
 # JRUNNER
 jrunner is a simple code runner that makes things simple, supports more than 15 languages!
 
+### Dependencies install cmd
+Arch linux / Manjaro
+sudo pacman -S --needed - < dependencies.txt
+
 
 # installer
 ## How to install?
