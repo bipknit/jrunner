@@ -104,6 +104,7 @@ for arg in "$@"; do
                 d|--debug) debug=1 ;;
                 t|--measureTime) measure_time=1 ;;
                 h|--help) show_help; exit 0 ;;
+                v|--version) show_version; exit 0;;
                 *) echo "Unknown option: -$flag"; exit 1 ;;
             esac
         done
