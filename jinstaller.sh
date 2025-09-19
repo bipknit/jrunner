@@ -61,3 +61,11 @@ if [[ -n "$SHELL_RC" ]]; then
 fi
 
 echo "Installation complete."
+echo "Do you want to destroy the installation script? [y/N]"
+read -r answer
+
+if [[ "$answer" =~ ^[Yy]$ ]]; then
+    echo "Destroying script..."
+    rm -- "$0"
+    exit 0
+fi
