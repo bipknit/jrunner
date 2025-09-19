@@ -1,5 +1,5 @@
 # JRUNNER
-jrunner is a simple code runner that makes things simple, supports more than 15 languages!
+jrunner is a simple code runner that makes things simple, supports up to 15 languages!
 
 ### Dependencies install cmd
 Arch linux / Manjaro
