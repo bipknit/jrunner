@@ -9,7 +9,7 @@ Arch linux / Manjaro
 ```bash
 sudo pacman -S --needed - < dependencies.txt
 ```
-Windows (REQUIRES CHOCOLATEY!)
+Windows (REQUIRES [Chocolatey](https://chocolatey.org/ "Package manager for Windows")!)
 ```ps1
 Get-Content dependencies.txt | ForEach-Object { choco install $_ -y --ignore-checksums }
 ```
