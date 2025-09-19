@@ -11,7 +11,7 @@ sudo pacman -S --needed - < dependencies.txt
 ```
 Windows (REQUIRES [Chocolatey](https://chocolatey.org/ "Package manager for Windows")!)
 <br>
-<img src="https://img.chocolatey.org/logos/chocolatey.svg" alt="Chocolatey Logo" width="100"/>
+[<img src="https://img.chocolatey.org/logos/chocolatey.svg" alt="Chocolatey Logo" width="100"/>](https://chocolatey.org/)
 ```ps1
 Get-Content dependencies.txt | ForEach-Object { choco install $_ -y --ignore-checksums }
 ```
