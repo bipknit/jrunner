@@ -13,7 +13,7 @@ sudo pacman -S --needed - < dependencies.txt
 ### Use the installer script 
 Which auto downloads the latest source for you and asks if you want to append the alias "j" to your shell config.
 ### Manually
-Just download the give .sh file and alias it for best use.
+Just download the given .sh file and alias it for best use.
 ## What are the supported shells for the installer?
 fish shell
 csh
