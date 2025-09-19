@@ -1,0 +1,15 @@
+python
+gcc
+jdk-openjdk
+dmd
+go
+nodejs
+npm
+ruby
+rust
+kotlin
+swift
+php
+bash
+perl
+lua
