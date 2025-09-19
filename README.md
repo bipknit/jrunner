@@ -9,6 +9,12 @@ Arch linux / Manjaro
 ```bash
 sudo pacman -S --needed - < dependencies.txt
 ```
+Windows
+
+REQUIRES CHOCOLATEY!
+```ps1
+Get-Content dependencies.txt | ForEach-Object { choco install $_ -y --ignore-checksums }
+```
 
 # install
 ## How to install?
