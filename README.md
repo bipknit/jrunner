@@ -111,7 +111,31 @@ Similar case happens for other compiled langs.
 How does it know which .out file is for what? For now it assumes a.out is the name for compiled code in case of cpp and c files. (I might be migrating to sourcefilename.c --> sourcefilename.out format later)
 
 
+# You save time!
+Lets calculate with the java manual example.
+Also the average typing speed is 40 WPM (Words per minute) ~200 characters per minute
+```bash
+javac Main.java
+java Main
+```
 
+
+| Method                     | Command             | Characters | Time Formula                     | Typing Time (sec) |
+|-----------------------------|-------------------|------------|---------------------------------|-----------------|
+| Manual compile + run        | javac Main.java    | 17         | 17 / 200 * 60                   | 5.1             |
+|                             | java Main          | 9          | 9 / 200 * 60                    | 2.7             |
+| Using runR with file        | r Main.java        | 11         | 11 / 200 * 60                   | 3.3             |
+| Using runR auto-select file | r                  | 1          | 1 / 200 * 60                     | 0.3             |
+
+$$
+Time (sec) = \frac{Characters}{200} \times 60
+$$
+$$
+TimeSaved = ManualTime - runRTime
+$$
+$$
+PercentSaved = \frac{TimeSaved}{ManualTime} \times 100
+$$
 
 Supported lang list: can be found at supported_langs.txt
 
