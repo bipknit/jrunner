@@ -1,6 +1,6 @@
 # runR
 runR is a simple multi language code runner that makes things simple, supports up to 16 languages!
-# Linux and Windows support! 
+## Linux and Windows support! 
 > ⚠️ **(the powershell source is directly translated from bash so i dont guarantee that there will be no problems)!** 
 
 ### Dependencies
