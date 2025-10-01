@@ -11,7 +11,8 @@ Arch linux / Manjaro
 sudo pacman -S --needed - < dependencies.txt
 ```
 
-via pip
+
+via pip (optional)
 ```bash
 pip install -r requirements.txt
 ```
